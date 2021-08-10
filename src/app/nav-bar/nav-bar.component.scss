@@ -1,0 +1,47 @@
+.navbar {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  margin-bottom: 1rem;
+  position: sticky;
+  z-index: 10;
+}
+
+.nav-container {
+  width: 80vw;
+  min-width: 400px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links{
+  line-height: 30px;
+  width: 190px;
+  margin: 1rem;
+}
+
+.nav-links-right {
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.nav-title {
+  color: red;
+  font-size: 2.5rem;
+  text-decoration: none;
+}
+
+.profile, .logout {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+span {
+  font-size: x-large;
+}

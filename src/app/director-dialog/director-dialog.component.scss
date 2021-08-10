@@ -1,0 +1,37 @@
+.director-dialog .mat-dialog-container {
+  width: 700px;
+  min-width: 260px;
+}
+
+.director-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+#close-button {
+  align-self: flex-end;
+  color: red;
+}
+
+.director-container h1 {
+  color: red;
+  align-self: center;
+}
+
+.director-container p {
+  text-align: justify;
+}
+
+.birth-death-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.data {
+  font-size: 14px;
+}

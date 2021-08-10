@@ -1,0 +1,17 @@
+<div class='details-container'>
+  <button id="close-button" mat-icon-button color='dark' [mat-dialog-close]='true'>
+    <mat-icon>close</mat-icon>
+  </button>
+
+  <img src={{data.imagePath}} alt={{data.title}} style="max-width:180px; align-self: center;" />
+  <h1>{{data.title}}</h1>
+
+  <h3>Director</h3>
+  <p class="data">{{data.genre}}</p>
+
+  <h3>Genre</h3>
+  <p class="data">{{data.director}}</p>
+
+  <h3>Description</h3>
+  <p class="data">{{data.description}}</p>
+</div>
